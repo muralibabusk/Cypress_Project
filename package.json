@@ -11,9 +11,9 @@
     //"cy:info": "Cypress info",
     //"cy:cloud": "Cypress run --spec 'cypress/e2e/**/*' --record --key <>",
     "cy:open": "cypress open",
-    "cy:runDefault": "cypress run --spec 'cypress/e2e/**/*'",
-    "cy:runChrome": "cypress run --browser chrome --spec 'cypress/e2e/**/*'",
-    "cy:runChromeHeadless": "cypress run --headless --browser chrome --spec 'cypress/e2e/**/*' --record"
+    //"cy:runDefault": "cypress run --spec 'cypress/e2e/**/*'",
+    "cy:runChrome": "cypress run --browser chrome --spec 'cypress/e2e/MASBrandPOS.cy.js'"
+    //"cy:runChromeHeadless": "cypress run --headless --browser chrome --spec 'cypress/e2e/MASBrandPOS.cy.js' --record"
   },
   "keywords": [],
   "author": "",
