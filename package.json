@@ -3,7 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    //"cy:open": "cypress open",
+    //"cy:override": "cypress run --browser chrome --Config viewportWidth=1280,viewportHeight=720",
+    //"cy:run": "cypress run --spec 'cypress/e2e/**/*'",
+    //"cy:verify": "cypress verify",
+    //"cy:info": "Cypress info",
+    //"cy:cloud": "Cypress run --spec 'cypress/e2e/**/*' --record --key <>",
+    "cy:open": "cypress open",
+    "cy:runDefault": "cypress run --spec 'cypress/e2e/**/*'",
+    "cy:runChrome": "cypress run --browser chrome --spec 'cypress/e2e/**/*'",
+    "cy:runChromeHeadless": "cypress run --headless --browser chrome --spec 'cypress/e2e/**/*' --record"
   },
   "keywords": [],
   "author": "",
