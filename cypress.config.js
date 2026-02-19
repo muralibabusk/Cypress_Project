@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'zp4ov3',
   e2e: {
     watchForFileChanges: false,
     setupNodeEvents(on, config) {
