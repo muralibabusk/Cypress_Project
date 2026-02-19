@@ -17,10 +17,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": "",
-  /*"dependencies": {
-    "cypress": "^13.13.0"
-  },*/
+  "dependencies": {},
   "devDependencies": {
     "cypress": "^13.13.0",
     "cypress-mochawesome-reporter": "^3.8.2",
